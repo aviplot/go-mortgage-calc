@@ -1,0 +1,4 @@
+github.com/aviplot/go-finance-math v0.0.0-20220810153625-b9ff4cbd3867 h1:Ze7e+6mZs/yNwxM8fjn0DWOa6PH+T4/uCZoqIfvXgDs=
+github.com/aviplot/go-finance-math v0.0.0-20220810153625-b9ff4cbd3867/go.mod h1:kTLB6FCiDRD4RdDPLy7d2U2uxSh5/KRmndp1ekiAJ68=
+github.com/shopspring/decimal v1.3.1 h1:2Usl1nmF/WZucqkFZhnfFYxxxu8LG21F6nPQBE5gKV8=
+github.com/shopspring/decimal v1.3.1/go.mod h1:DKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=

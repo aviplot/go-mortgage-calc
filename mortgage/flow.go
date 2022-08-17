@@ -20,3 +20,9 @@ func (f Flow) ToCashFlow() (cf financial.CashFlow) {
 	cf.Date = f.Date
 	return
 }
+
+func (f Flow) ToCashFlowIndexed() (cf financial.CashFlow) {
+	cf.Flow = f.PaymentFactored.InexactFloat64()
+	cf.Date = f.Date
+	return
+}

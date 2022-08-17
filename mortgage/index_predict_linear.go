@@ -13,7 +13,7 @@ type indexGrowthLinear struct {
 }
 
 // NewLinearGrowthIP create new index predictor (linear curve)
-func NewLinearGrowthIP(bd financial.Date, bi, curve decimal.Decimal) (i indexGrowthLinear){
+func NewLinearGrowthIP(bd financial.Date, bi, curve decimal.Decimal) (i indexGrowthLinear) {
 	i.baseIndex = bi
 	i.baseIndexDate = bd
 	i.curve = curve
